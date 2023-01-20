@@ -13,8 +13,10 @@ we wanted to use going forward, to decide we individually modelled various hulls
 being compared we decided upon something similar to the way a surfboard is constructed with a polystyrene body coated externally with fiberglass and an epoxy resin to
 seal and waterproof it. The polystyrene would provide the bouyancy whilst the epoxy protected the porous polystyrene from soaking in the water. We also had to decide
 other things such as in or outboard motors, aswell as how we would implement the style we choose. We went with inboard as they were much easier to protect from the
-elements allowing a much longer life for the component and less chance of failure. Propeller design was undertaken by harry and he produced a relatively agressively pitched
-propeller to shift lots of water but not a high speed hopefully avoiding any cavitation issues entirely.
+elements allowing a much longer life for the component and less chance of failure, however we did run tests leaving motors is slightly salty water for long periods of time runnning 
+to see how it would affect them and after a few hours of running and days to rest no noticable issues could be found Propeller design was undertaken by harry and he produced a 
+relatively agressively pitched propeller to shift lots of water but not a high speed hopefully avoiding any cavitation issues entirely.
+<img src="water_test.png" alt="Motor being tested in water" style="float:right;width:150px;height:150px;">
 </p>
 <h3>Futher iterations</h3>
 <p>With a hull design chosen and an idea of how we were going to progress we got started with some of the slightly larger construction points, begining with the most important
@@ -96,11 +98,12 @@ as the similarly followed the regular behaviour of a Braitenburg but some were n
 <p>This workshop provided an introduction into further motor control including Odometry, all using encoded motors to take measurements as the motors operate.
 For the use of encodors we had to manually work out the gear ratio comparing one full rotation of the motor to how many ticks were measured to have passed 
 by the encoder itself, and the further using this to to calculate the actual distance traveled using the circumference of the wheels and these ratios and values.
-All in order to make the robot move exactly one metre and come to a stop
+All in order to make the robot move exactly one metre and come to a stop. <img src="encoder-test.png" alt="testing of the wired up encoder" style="float:right;width:150px;height:150px;">
 </p>
 <p>The other workshop further encapsulated how to actually use the motors in accordance with the provided H-Bridge to correctly control them, the H-Bridge
 allows you to more accurately control the speed of the motors as well as actually alternating the direction of the motors using the microproccesor aswell.
 This paired with the odometry and encoders allows for very fine control of the motors to get incredibly accurate results in movement.
+<img src="motor-test.png" alt="Making the motors move using the H-Bridge" style="float:left;width:150px;height:150px;">
 </p>
 
 </body>
